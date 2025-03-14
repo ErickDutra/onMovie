@@ -37,10 +37,6 @@ export default function MovieDetailsScreen() {
 
   }, [movieId]);
 
-  
-
-
-
   if (!movie) {
     return (
       <View style={styles.container}>
